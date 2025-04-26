@@ -1,4 +1,4 @@
-# Lung-PNetV2 Image Classification Module
+# Lung-PNetV2 Image-only Classification Module
 
 ## Project Description
 This module uses a 3D CNN model to classify lung CT images, distinguishing between IAC (Invasive Adenocarcinoma) and other types.
