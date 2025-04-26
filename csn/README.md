@@ -1,4 +1,4 @@
-# Lung-PNetV2 CSN Python Module
+# Lung-PNetV2 CSN Module
 
 ## Project Description
 This project contains Python scripts for processing lung CT scan data, including 2D/3D image processing and resolution enhancement.
