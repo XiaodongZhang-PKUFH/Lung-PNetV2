@@ -110,8 +110,9 @@ python train.py
 2. Training parameters can be adjusted in each module's config.py
 3. Output directory requires sufficient storage space
 
-## Thanks
-1. *[fastai](https://github.com/fastai/fastai)*
-2. *[faimed3d](https://github.com/kbressem/faimed3d)*
-3. *[DeOldify](https://github.com/jantic/DeOldify)*
+## Acknowledgements
+This project was inspired by the following open-source repositories:
+1. [fastai](https://github.com/fastai/fastai) - Deep learning library
+2. [faimed3d](https://github.com/kbressem/faimed3d) - 3D medical imaging tools
+3. [DeOldify](https://github.com/jantic/DeOldify) - Image enhancement techniques
 
