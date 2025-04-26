@@ -76,7 +76,7 @@ Modify path and parameter settings in each module's config.py, including:
 ## Parameter Description
 - `REGION_NAME`: Region type (roi/merge)
 - `METHOD_NAME`: Processing method (DIL/ERO)
-- `CLIP`: Image cropping parameters
+- `CLIP`: CT Window Level cropping parameters
 - `N_FOLDS`: K-fold cross-validation count
 - `FOLD`: Current fold number
 - `ARCH`: Model architecture
