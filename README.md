@@ -109,3 +109,9 @@ python train.py
 1. Ensure all input data paths are correctly configured
 2. Training parameters can be adjusted in each module's config.py
 3. Output directory requires sufficient storage space
+
+## Thanks
+1. [fastai] (https://github.com/fastai/fastai)
+2. [faimed3d] (https://github.com/kbressem/faimed3d)
+3. [DeOldify] (https://github.com/jantic/DeOldify)
+
