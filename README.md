@@ -43,17 +43,17 @@ Lung-PNetv2 is a cross-modality fusion deep learning framework, for differentiat
 ### 2. Image Only Classification
 ![Image Classification](./docs/images/image_classification.png)
 - Function: 3D CNN-based pulmonary nodule image classification
-- Main scripts: train.py, volumetric_feature_extractor.py
+- Main scripts: train.py
 
 ### 3. Tabular Only Classification
 ![Tabular Data](./docs/images/tabular_data.png)
 - Function: Clinical tabular data classification
-- Main scripts: train.py, clinical_embedding.py
+- Main scripts: train.py
 
 ### 4. Image-Tabular Fusion
 ![Fusion Model](./docs/images/fusion_model.png)
 - Function: Multimodal classification combining imaging and clinical data
-- Main scripts: train.py, cross_modal_fusion.py
+- Main scripts: train.py
 
 ## Installation Guide
 
