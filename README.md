@@ -74,8 +74,6 @@ Modify path and parameter settings in each module's config.py, including:
 - `MODEL_DIR`: Model save directory
 
 ## Parameter Description
-- `REGION_NAME`: Region type (roi/merge)
-- `METHOD_NAME`: Processing method (DIL/ERO)
 - `CLIP`: CT Window Level cropping parameters
 - `N_FOLDS`: K-fold cross-validation count
 - `FOLD`: Current fold number
