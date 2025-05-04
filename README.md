@@ -9,42 +9,26 @@ Lung-PNetv2 is a cross-modality fusion deep learning framework, for differentiat
 - Architecture: Combines 2D ResNet-34 encoder with U-Net-style decoder
 - Function: Implements feature-aware intensity standardization through hybrid loss function (perceptual similarity + adversarial training)
 - Output: Converts heterogeneous CT scans into normalized latent representations
-- Main scripts: batch_create_2d_slices.py, batch_create_3d_nii.py, chest_resolution_enhancement.py
+
 
 ### 2. Image Only Classification
 - Architecture: 3D ResNet-18 with depthwise separable convolutions
 - Function: Extracts multi-scale spatial features from volumetric non-expanded bounding boxes
 - Preserves contextual information around pGGN lesions
-- Main scripts: train.py, volumetric_feature_extractor.py
+
 
 ### 3. Tabular Only Classification
 - Architecture: Adaptive embedding network with feature masking
 - Function: Learns dense embeddings for clinical variables and nodule characteristics
 - Enhances representation robustness through reconstruction mechanisms
-- Main scripts: train.py, clinical_embedding.py
+
 
 ### 4. Image-Tabular Fusion
 - Architecture: Dual-stream fusion with concatenated projection layers
 - Function: Synchronizes frozen representations from both modalities
 - Uses MLP with dropout (p=0.5) for clinical outcome prediction
 - Maintains integrity of domain-specific features from pre-training
-- Main scripts: train.py, cross_modal_fusion.py
 
-### 1. Cross-Scanner Normalization (CSN)
-- Function: Processes lung CT scan data, including 2D/3D image processing and resolution enhancement
-- Main scripts: batch_create_2d_slices.py, batch_create_3d_nii.py, chest_resolution_enhancement.py
-
-### 2. Image Only Classification
-- Function: 3D CNN-based pulmonary nodule image classification
-- Main scripts: train.py
-
-### 3. Tabular Only Classification
-- Function: Clinical tabular data classification
-- Main scripts: train.py
-
-### 4. Image-Tabular Fusion
-- Function: Multimodal classification combining imaging and clinical data
-- Main scripts: train.py
 
 ## Installation Guide
 
@@ -55,7 +39,7 @@ Lung-PNetv2 is a cross-modality fusion deep learning framework, for differentiat
 ### Environment Setup
 ```bash
 conda create -n lungpnet python=3.8
-conda activate lungpnet
+conda activate lungpnetv2
 ```
 
 ## Configuration
